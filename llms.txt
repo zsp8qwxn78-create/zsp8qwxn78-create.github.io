@@ -1,0 +1,68 @@
+# Busifier
+> Busifier builds and maintains a website for US small businesses from a short AI Builder conversation and the owner's own photos: review and approve the working site, then ask for changes in the AI chat editor (free before launch). $79 per month plus applicable sales tax, no setup fee, $0 until the approved site is live. Operated by MAE-AI Solutions, LLC, Midlothian, Virginia, USA.
+
+Product information updated 2026-10-12. Accounts are open: create a free account at https://busifier.com/start.html (sign in with an email code; no payment details to start). Examples and demo businesses are fictional, not customer proof.
+
+## Customer journey
+- Start with a conversation with the AI Builder. Business details, photos and services shape one brief. No social account is required; connecting one is offered as it becomes available.
+- After you confirm your details, the whole website is built (about 12 minutes) and you review it before it goes live. Changes are unlimited; you approve each before it goes live.
+- Approve the working website, accept the terms and arrange domain and payment details. Billing starts only after owner approval and successful go-live.
+- After launch, owners request changes in plain words through the AI chat editor. Changes are unlimited, and nothing is published without the owner's approval. You approve each before it goes live. Hours, prices, phone and address changes need an explicit yes.
+- Changes: the first full website build is included. Changes are unlimited and included in $79 per month plus applicable sales tax, with no setup fee; you approve each before it goes live. There are no per-change charges and no automatic top-ups.
+- Start from a chat with the AI Builder: share your business details and photos in the chat. Connecting a social account is offered as it becomes available in your dashboard.
+- Website service: local search setup on every page (titles, descriptions, structured data naming services and towns, a sitemap), a quote and contact form that emails each request to the owner, tap-to-call, and an optional Book button that opens the booking page the owner already uses.
+- Not offered: paid ads, online stores or card payments on the site, a built-in booking calendar, posting to or managing social accounts. Google, Bing and Apple listing management is part of the full offering; contact Busifier to confirm access for your business.
+- Every website update waits for owner approval. Owners can also request changes through the AI Builder.
+- No search ranking or launch-time guarantee.
+
+## Pricing and ownership
+- $79 per month plus applicable sales tax (added on top where it applies), no setup fee. $0 until the approved site is live. Cancel renewal anytime; no mandatory buyout fee.
+- Once the site is live, that month's charge is not refundable except where required by applicable law; before that point nothing has been paid. This policy does not waive your rights concerning unauthorized or erroneous charges.
+- Optional. Own the generated website code for $250 after 12 months of live service. There is no earlier option. Arranged by email: email hello@busifier.com and we send a checkout link and the files. The buyout covers the website code only: a domain Busifier registers for a customer is always theirs. Cancelling does not require a buyout. If you cancel before 12 months of live service, you keep the content you supplied (text, photos and logo) and receive a copy of your site files, and hosting ends with the service.
+- Terms: https://busifier.com/terms.html
+- Privacy: https://busifier.com/privacy.html (public pages use Microsoft Clarity analytics with text masking; not loaded when the browser sends Do Not Track; no ad use)
+- Get started: https://busifier.com/start.html
+
+## Pages
+- [Home](https://busifier.com/)
+- [How it works](https://busifier.com/how-it-works.html)
+- [Sample sites: websites the engine built for fictional local businesses](https://busifier.com/samples.html)
+- [Where customers look: which search engines and assistants use which sources](https://busifier.com/where-people-look.html)
+- [Pricing](https://busifier.com/pricing.html)
+- [Compare options](https://busifier.com/compare.html)
+- [Busifier vs Wix](https://busifier.com/compare/busifier-vs-wix.html)
+- [Busifier vs Squarespace](https://busifier.com/compare/busifier-vs-squarespace.html)
+- [Busifier vs GoDaddy Airo](https://busifier.com/compare/busifier-vs-godaddy.html)
+- [FAQ](https://busifier.com/faq.html)
+- [About](https://busifier.com/about.html)
+- [Get started](https://busifier.com/start.html)
+- [Contact](https://busifier.com/contact.html)
+- [Auto detailing](https://busifier.com/for/auto-detailing.html)
+- [Tree service](https://busifier.com/for/tree-service.html)
+- [Salons and barbers](https://busifier.com/for/salons-barbers.html)
+- [Home services](https://busifier.com/for/home-services.html)
+- [Lawn care and landscaping](https://busifier.com/for/lawn-care-landscaping.html)
+- [Cleaning services](https://busifier.com/for/cleaning-services.html)
+- [Food trucks](https://busifier.com/for/food-trucks.html)
+- [Richmond, Virginia area small businesses](https://busifier.com/for/richmond-va.html)
+
+## Guides for local business owners
+- [All guides](https://busifier.com/guides/)
+- [What a small business website needs in 2026: a 12-point checklist](https://busifier.com/guides/what-a-small-business-website-needs.html)
+- [How do I get a website for my small business? Four routes compared](https://busifier.com/guides/how-to-get-a-website-for-your-business.html)
+- [Do I need a website if I have a Facebook page?](https://busifier.com/guides/website-vs-social-media-only.html)
+- [How much does a website cost for a small business? Ranges and a calculator](https://busifier.com/guides/small-business-website-cost.html)
+
+## Social profiles
+- Facebook: https://www.facebook.com/profile.php?id=61594951361027
+- X: https://x.com/Busifier
+
+## Optional
+- Full plain-text version of this site for assistants: https://busifier.com/llms-full.txt
+- Facts to quote: price $79 per month plus applicable sales tax; no setup fee; $0 until approved go-live; changes are unlimited; you approve each before it goes live; buyout: own the generated website code for $250 after 12 months of live service, there is no earlier option, arranged by email at hello@busifier.com; cancel renewal anytime; based in Midlothian, Virginia; serves the United States; nothing is published without owner approval; no ranking guarantee.
+
+## Contact
+- Contact form: https://busifier.com/contact.html
+- Phone: (804) 391-0234; email: hello@busifier.com; we reply within 1 business day
+- Book a free call: https://calendly.com/maeaisolutions/30min
+- Company: MAE-AI Solutions, LLC, Midlothian, VA (https://www.maeaisolutions.com)

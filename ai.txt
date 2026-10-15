@@ -1,0 +1,18 @@
+# ai.txt for https://busifier.com (Spawning ai.txt convention: robots.txt syntax applied to content types)
+# Policy: permissive. Busifier's public marketing pages, guides, images and text files may be read and used by
+# AI crawlers, assistants and search features. Private areas are listed in robots.txt and are not public content.
+# This file states a preference; access control is done by authentication, not by this file.
+# Plain-language summary for assistants: https://busifier.com/llms.txt  Full text: https://busifier.com/llms-full.txt
+
+User-Agent: *
+Allow: *.html
+Allow: *.txt
+Allow: *.xml
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.webp
+Allow: *.svg
+Allow: *.mp4
+Allow: *.webm
+Allow: /

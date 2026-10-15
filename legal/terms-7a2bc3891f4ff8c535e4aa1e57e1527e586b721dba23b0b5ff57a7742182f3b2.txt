@@ -1,0 +1,57 @@
+BUSIFIER TEST-ONLY TERMS SNAPSHOT
+
+For integration testing only. This copies the current public draft. It is not final production terms and does not authorize a real subscription or charge.
+
+Terms of Service
+
+Draft, pending legal review. Updated October 7, 2026.
+
+Busifier is a managed service by MAE-AI Solutions. In this page, “we” means our team.
+
+The service
+
+Busifier is a managed service from MAE-AI Solutions. The planned initial service builds a website from an AI Builder conversation and provides chat-based editing with an allowance of credits. Social connectors, weekly social-source checks and external listing updates are coming soon and excluded from the initial launch.
+
+You approve what goes live
+
+You approve a design presentation before the full build and approve the working website before launch. Later changes wait for your approval. Business hours, prices and private address details require your explicit choice.
+
+Billing
+
+The planned price is $100 per month with no setup fee. Subscription billing begins only after you approve the exact finished website and it successfully goes live. The final price and service terms must be accepted before billing. Monthly editing credits are included; extra credits require a separate, explicit purchase. Allowances and pack prices will be shown before purchase.
+
+Cancellation
+
+You can cancel renewal at any time. Cancellation takes effect at the end of the paid service period and does not trigger a buyout charge. The intended policy is no refunds after accepted go-live, subject to the final reviewed terms and applicable law.
+
+Optional ownership buyout
+
+You retain ownership of the content you supply. Buying the website code and transferring a Busifier-purchased domain is optional: the planned price is $1,499.99 before twelve months of live service, or $250 from the first anniversary of verified go-live. Cancellation alone does not purchase or transfer them. The final handoff scope, retention period and domain eligibility will be specified in the reviewed terms.
+
+Your content
+
+You own your content. You give us permission to use it only to provide the service.
+
+AI can make mistakes
+
+AI output can contain errors. Please review it. Nothing is published until you approve it.
+
+No guarantees
+
+We do not guarantee search rankings, leads, customers or any particular result.
+
+Demo data
+
+The businesses, posts and numbers shown in our demo are fictional.
+
+Questions
+
+Email
+
+hello@busifier.com
+
+or call
+
+(804) 391-0234
+
+(Monday to Saturday, 9am to 6pm Eastern).

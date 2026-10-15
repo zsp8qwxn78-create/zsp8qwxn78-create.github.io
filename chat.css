@@ -1,0 +1,88 @@
+.bz-launch{position:fixed;right:18px;bottom:18px;z-index:95;display:flex;align-items:center;gap:8px;min-height:48px;padding:12px 18px;border:1px solid #16181F;border-radius:8px;background:#8FD9BE;color:#16181F;font:700 15px/1 "Instrument Sans",system-ui,sans-serif;box-shadow:0 2px 6px rgba(22,24,31,.18);cursor:pointer}
+.bz-launch:hover{background:#A3E3CB}
+.bz-launch:focus-visible,.bz-x:focus-visible,.bz-form button:focus-visible,.bz-log:focus-visible{outline:3px solid #16181F;outline-offset:2px;box-shadow:0 0 0 6px #fff}
+.bz-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (max-width:480px){.bz-panel{right:10px;left:10px;width:auto;bottom:76px}.bz-launch{right:10px;bottom:10px}}
+.bz-launch svg{width:18px;height:18px}
+.bz-panel{padding:0;position:fixed;right:18px;bottom:76px;z-index:96;width:min(380px,calc(100vw - 36px));height:min(520px,calc(100svh - 110px));display:none;flex-direction:column;background:#fff;color:#16181F;border:1px solid #CFCBC0;border-radius:8px;overflow:hidden;box-shadow:0 4px 16px rgba(22,24,31,.18);font-family:"Instrument Sans",system-ui,sans-serif}
+.bz-panel.open{display:flex}
+.bz-head{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;background:#14161D;color:#FBFAF6}
+.bz-head b{font-size:15px}.bz-head small{display:block;color:#A8ACB8;font-size:12px;margin-top:1px}
+.bz-x{background:none;border:none;color:#FBFAF6;font-size:22px;line-height:1;cursor:pointer;min-width:44px;min-height:44px}
+.bz-log{flex:1;overflow:auto;padding:14px;display:flex;flex-direction:column;gap:10px;background:#FBFAF6}
+.bz-m{max-width:86%;padding:10px 13px;border-radius:8px;font-size:14.5px;line-height:1.45;white-space:pre-wrap}
+.bz-m.bot{background:#fff;border:1px solid #E7E3D8;align-self:flex-start;border-bottom-left-radius:3px}
+.bz-m.me{background:#8FD9BE;color:#16181F;align-self:flex-end;border-bottom-right-radius:3px}
+.bz-m.err{background:#FBE9EA;color:#7a1f27;align-self:flex-start}
+.bz-form{display:flex;gap:8px;padding:10px;border-top:1px solid #E7E3D8;background:#fff}
+.bz-form input{flex:1;min-width:0;font:inherit;font-size:16px;min-height:44px;padding:10px 14px;border:1.5px solid #8A8F9C;border-radius:8px}
+.bz-form input:focus-visible{outline:3px solid #16181F;outline-offset:1px;box-shadow:0 0 0 5px #fff}
+.bz-form button{border:none;border-radius:8px;background:#16181F;color:#fff;font:600 14px "Instrument Sans",sans-serif;padding:0 18px;min-height:44px;cursor:pointer}
+.bz-note{font-size:11.5px;color:#565B68;padding:0 14px 10px;background:#fff}
+@media (prefers-reduced-motion:no-preference){.bz-panel.open{animation:bzin .22s ease-out}@keyframes bzin{from{opacity:0;transform:translateY(8px)}}}
+.bz-panel[data-theme=busifier]{background:#8FD9BE;border-color:#16181F}
+.bz-panel[data-theme=busifier] .bz-head{background:#17785A;color:#fff}
+.bz-panel[data-theme=busifier] .bz-head small{color:#fff}
+.bz-panel[data-theme=busifier] .bz-x{color:#fff}
+.bz-panel[data-theme=busifier] .bz-log{background-color:#A9E3CE;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160' fill='none' stroke='%2317785A' stroke-opacity='.5' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 40v-14l5-8h18l5 8v14M12 40h32M22 40v-9h8v9M14 26h28'/%3E%3Ccircle cx='100' cy='48' r='5'/%3E%3Ccircle cx='114' cy='48' r='5'/%3E%3Cpath d='M103 44l16-22M111 44l-16-22'/%3E%3Cpath d='M126 118v-14M126 104c-10 0-14-9-10-15 1-8 14-10 20-4 7 3 6 17-3 19-2 0-5 0-7 0z'/%3E%3Ccircle cx='34' cy='112' r='6'/%3E%3Ccircle cx='54' cy='112' r='6'/%3E%3Cpath d='M24 112h-6v-10l8-8h16l8 8h14v10h-6M40 94v8'/%3E%3Cpath d='M84 96c0 10-8 14-8 14s-8-4-8-14a8 8 0 0 1 16 0z'/%3E%3Ccircle cx='76' cy='96' r='2.5'/%3E%3Cpath d='M150 72h-8M146 68v8M10 76h-6M7 73v6M70 150h-8M66 146v8' /%3E%3Cpath d='M140 31c-6-4-10-8-10-12.5a5 5 0 0 1 10-1.5 5 5 0 0 1 10 1.5c0 4.5-4 8.5-10 12.5z'/%3E%3C/svg%3E");background-size:160px 160px}
+.bz-panel[data-theme=busifier] .bz-m.bot{background:#fff;color:#16181F;border-color:#16181F}
+.bz-panel[data-theme=busifier] .bz-m.me{background:#17785A;color:#fff;border:1px solid #16181F}
+.bz-panel[data-theme=busifier] .bz-m.err{border:1px solid #7a1f27}
+.bz-panel[data-theme=busifier] .bz-form,.bz-panel[data-theme=busifier] .bz-note{background:#FBFAF6}
+.bz-panel[data-theme=busifier] .bz-form button{background:#8FD9BE;color:#16181F;border:1px solid #16181F}
+.bz-panel[data-theme=busifier] .bz-form button:hover{background:#A3E3CB}
+/* voice (WP11): Talk or Type. First open: a large two-option card in the conversation. After that: a Talk | Type pill strip above the form, and in Talk mode one round mic with three states. Hidden until chat.js confirms browser support. */
+.bz-head-tools{display:flex;align-items:center}
+.bz-bar{display:flex;flex-direction:column;gap:6px;padding:8px 12px;background:#FBFAF6;border-top:1px solid #E7E3D8}
+.bz-bar[hidden]{display:none}
+.bz-bar-row{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.bz-voice-pick{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:#565B68}
+.bz-voice-pick[hidden]{display:none}
+.bz-voice-pick select{min-height:36px;padding:4px 8px;border:1.5px solid #CFCBC0;border-radius:999px;background:#fff;color:#16181F;font:600 13.5px "Instrument Sans",system-ui,sans-serif}
+.bz-pill{display:inline-flex;align-self:flex-start;padding:3px;border:1.5px solid #CFCBC0;border-radius:999px;background:#fff}
+.bz-pill-opt{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 14px;border:none;border-radius:999px;background:transparent;color:#565B68;font:600 14px "Instrument Sans",system-ui,sans-serif;cursor:pointer}
+.bz-pill-opt svg,.bz-opt svg,.bz-mic svg{flex:none}
+.bz-pill-opt svg{width:18px;height:18px}
+.bz-pill-opt[aria-pressed=true]{background:#8FD9BE;color:#16181F;box-shadow:inset 0 0 0 1.5px #16181F}
+.bz-pill-opt:focus-visible,.bz-opt:focus-visible,.bz-retry:focus-visible{outline:3px solid #16181F;outline-offset:2px}
+.bz-voice{margin:0;font-size:13.5px;color:#16181F;display:flex;gap:6px 10px;align-items:center;flex-wrap:wrap;min-height:24px}
+.bz-voice::before{content:"";width:9px;height:9px;border-radius:50%;background:#17785A;flex:none}
+.bz-voice.is-listening{font-weight:600}
+.bz-voice.is-thinking::before{background:#8A5A00}
+.bz-voice.is-bad{color:#7a1f27}.bz-voice.is-bad::before{background:#7a1f27}
+.bz-voice:not(.is-listening):not(.is-thinking):not(.is-speaking):not(.is-bad)::before{display:none}
+.bz-voice[hidden],.bz-retry[hidden],.bz-form .bz-mic[hidden]{display:none}
+.bz-retry{display:inline-flex;align-items:center;gap:4px;min-height:36px;padding:4px 10px;border:1.5px solid #16181F;border-radius:8px;background:#fff;color:#16181F;font:600 13px "Instrument Sans",system-ui,sans-serif;cursor:pointer}
+.bz-retry svg{width:12px;height:12px}
+.bz-form .bz-mic{position:relative;flex:none;width:48px;height:48px;padding:0;display:inline-grid;place-items:center;border:1.5px solid #16181F;border-radius:50%;background:#8FD9BE;color:#16181F;cursor:pointer;font:inherit}
+.bz-form .bz-mic svg{width:22px;height:22px}
+.bz-form .bz-mic::before{content:"";position:absolute;inset:-6px;border-radius:50%;border:2px solid #17785A;opacity:0;pointer-events:none}
+.bz-form .bz-mic.is-listening{background:#17785A;color:#fff;border-color:#17785A}
+.bz-form .bz-mic.is-listening::before{opacity:.6}
+.bz-form .bz-mic.is-thinking{background:#fff;color:#8A8F9C;border-color:#CFCBC0}
+.bz-form .bz-mic.is-speaking{background:#fff;color:#17785A;border-color:#17785A}
+.bz-form .bz-mic:focus-visible{outline:3px solid #16181F;outline-offset:3px}
+.bz-choice{max-width:100%;width:100%;display:grid;gap:10px;padding:14px 12px}
+.bz-choice p{font-weight:700;margin:0;font-size:15px}
+.bz-opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.bz-opt{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:112px;padding:12px 8px;border:1.5px solid #CFCBC0;border-radius:8px;background:#fff;color:#16181F;font:inherit;text-align:center;cursor:pointer}
+.bz-opt svg{width:32px;height:32px;margin-bottom:4px}
+.bz-opt b{font-size:17px}.bz-opt small{display:block;font-size:12.5px;color:#565B68;line-height:1.3}
+.bz-opt:hover{border-color:#16181F}
+.bz-opt-talk{background:#8FD9BE;border-color:#16181F}
+.bz-opt-talk small{color:#16181F}
+@media (prefers-reduced-motion:no-preference){
+  .bz-form .bz-mic.is-listening::before{animation:bzring 1.4s ease-out infinite}
+  @keyframes bzring{0%{opacity:.7;transform:scale(.92)}100%{opacity:0;transform:scale(1.18)}}
+  .bz-form .bz-mic.is-thinking svg,.bz-form .bz-mic.is-speaking svg{animation:bzpulse 1.1s ease-in-out infinite}
+  @keyframes bzpulse{50%{opacity:.4}}
+}
+.bz-panel[data-theme=busifier] .bz-bar{background:#FBFAF6}
+.bz-panel[data-theme=busifier] .bz-choice{border:1px solid #16181F}
+/* starter questions (UX pain-point pass): tappable chips under the greeting; removed after the first message */
+.bz-chips{display:flex;flex-wrap:wrap;gap:8px;align-self:flex-start;max-width:100%}
+.bz-chip{min-height:44px;padding:8px 14px;border:1.5px solid #16181F;border-radius:999px;background:#fff;color:#16181F;font:600 14px "Instrument Sans",system-ui,sans-serif;cursor:pointer;text-align:left}
+.bz-chip:hover{background:#F3F1EA}
+.bz-chip:focus-visible{outline:3px solid #16181F;outline-offset:2px}
+.bz-chip:active{transform:scale(.97)}
+@media (prefers-reduced-motion:reduce){.bz-chip:active{transform:none}}

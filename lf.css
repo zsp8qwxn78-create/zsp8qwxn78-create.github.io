@@ -1,0 +1,128 @@
+/* Busifier brand tokens and base */
+:root{
+  --paper:#FBFAF6;
+  --card:#FFFFFF;
+  --ink:#16181F;
+  --ink-soft:#565B68;
+  --line:#E7E3D8;
+  --jade:#8FD9BE;             /* pastel jade, the brand color */
+  --jade-deep:#17785A;
+  --pink:#F2A3C0;             /* soft like-heart pink, accents only */
+  --cyan:#0EA5C9;
+  --grad:linear-gradient(118deg,#4FBB89 0%,#8FD9BE 60%,#C7EEDF 100%);
+  --amber:#8FD9BE;            /* legacy name now points at pastel jade */
+  --amber-deep:#17785A;
+  --green-text:#17785A;
+  --amber-wash:#E6F6EF;
+  --blue:#2E5BFF;
+  --blue-wash:#EBF0FF;
+  --green:#1F9D66;
+  --green-wash:#E4F5EC;
+  --red:#B3303B;
+  --red-wash:#FBE9EA;
+  --night:#14161D;
+  --radius:8px;
+  --shadow:0 1px 2px rgba(22,24,31,.07);
+  --font-display:"Bricolage Grotesque",system-ui,sans-serif;
+  --font-body:"Instrument Sans",system-ui,sans-serif;
+  --font-mono:"Spline Sans Mono",ui-monospace,monospace;
+  --font-cond:"Archivo","Arial Narrow",sans-serif; /* used at wdth 62 / wght 900: the giant scene words + marquee */
+  /* scroll-story scene floods: bg / display ink / body-soft (ratios checked: soft >=7.6:1, display >=5.5:1) */
+  --pop-pink:#F9CFE0;  --pop-pink-ink:#8C2853;  --pop-pink-soft:#5C2440;
+  --pop-mint:#D3F3E6;  --pop-mint-ink:#0F5C45;  --pop-mint-soft:#1D4A3B;
+  --pop-jade:#A9E3CB;  --pop-jade-ink:#0B4F3B;  --pop-jade-soft:#173F34;
+  --pop-butter:#FFEBA6;--pop-butter-ink:#7A4B00;--pop-butter-soft:#4D3510;
+  --pop-lilac:#D8D4FF; --pop-lilac-ink:#3B2F8F; --pop-lilac-soft:#332D63;
+  --pop-aqua:#BDE9E4;  --pop-aqua-ink:#0B4A4F;  --pop-aqua-soft:#1B4247;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    /* The demo keeps one deliberate light look; dark mode maps to the same palette on night ink. */
+    --paper:#14161D; --card:#1C1F28; --ink:#F3F1EA; --ink-soft:#A8ACB8;
+    --line:#2B2F3A; --amber-deep:#8FD9BE; --green-text:#6FD3A8; --red:#F08A92; --amber-wash:#2E1A26; --blue-wash:#1A2238;
+    --green-wash:#15291F; --red-wash:#301B1E; --night:#0C0E13;
+    --shadow:0 1px 2px rgba(0,0,0,.4);
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:var(--font-body);font-size:16.5px;line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+button{font:inherit;cursor:pointer}
+img{max-width:100%;display:block}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.eyebrow{
+  font-family:var(--font-mono);font-size:12px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--amber-deep);font-weight:500;
+}
+h1,h2,h3{font-family:var(--font-display);line-height:1.08;letter-spacing:-.015em}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;border:none;border-radius:var(--radius);
+  min-height:44px;justify-content:center;padding:12px 24px;font-weight:600;font-size:16px;text-decoration:none;
+  transition:transform .15s ease,box-shadow .15s ease;
+}
+.btn:active{transform:scale(.98)}
+/* two-tone ring: dark core + white halo reads on light, dark and colour-flood backgrounds */
+:focus-visible{outline:3px solid #16181F;outline-offset:2px;box-shadow:0 0 0 6px #fff;border-radius:6px}
+.btn:focus-visible{border-radius:var(--radius)}
+input:focus-visible,select:focus-visible,textarea:focus-visible{outline-offset:1px}
+.btn-primary{background:var(--ink);color:var(--paper)}
+.btn-primary:hover{background:#2C313D}
+.btn-amber{background:var(--jade);color:var(--ink);font-weight:700}
+.btn-amber:hover{background:#A3E3CB}
+.btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn-ghost:hover{border-color:var(--ink)}
+.chip{
+  display:inline-flex;align-items:center;gap:6px;border-radius:6px;
+  font-family:var(--font-mono);font-size:12px;padding:4px 12px;font-weight:500;
+}
+.chip-green{background:var(--green-wash);color:var(--green-text)}
+.chip-blue{background:var(--blue-wash);color:var(--blue)}
+.chip-amber{background:var(--amber-wash);color:var(--amber-deep)}
+.chip-cyan{background:#E3F6FB;color:#0A6580}
+.chip-red{background:var(--red-wash);color:var(--red)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+/* demo ribbon */
+.demo-tag{
+  position:fixed;bottom:14px;right:14px;z-index:90;
+  font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;
+  background:var(--night);color:var(--jade);padding:6px 12px;border-radius:6px;
+  opacity:.92;pointer-events:none;text-transform:uppercase;
+}
+@media (max-width:600px){.demo-tag{bottom:auto;top:auto;left:50%!important;right:auto!important;transform:translateX(-50%);bottom:2px;font-size:9.5px;padding:3px 10px;white-space:nowrap;opacity:.8}}
+/* wordmark */
+.wordmark{min-height:44px;display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-family:var(--font-display);font-weight:800;font-size:19px;letter-spacing:-.02em}
+.wordmark .star{
+  width:26px;height:26px;display:grid;place-items:center;line-height:1;
+}
+.wordmark .star svg{width:24px;height:24px}
+/* ---------- silver devices (shared; index.html inlines the same block for speed, keep the two in sync) ----------
+   Light brushed-aluminium frame, subtle edge highlight, thin dark glass inside. Each mockup keeps its own outer size.
+   .alu-phone / .alu-screen / .alu-display: metal border + glass padding. .alu-bar: browser title bar. .alu-window: light metal card edge. */
+:root{
+  --alu:linear-gradient(135deg,#F4F5F7 0%,#C9CDD3 22%,#ECEEF1 45%,#B7BCC4 70%,#E4E6EA 100%);
+  --alu-brush:repeating-linear-gradient(90deg,rgba(255,255,255,.06) 0 1px,rgba(60,66,76,.035) 1px 3px);
+  --alu-bar:linear-gradient(#EEF0F2,#D5D9DE);
+  --alu-rim:#8E949D;
+  --glass:#0E1013;
+}
+.alu-phone,.alu-screen,.alu-display{border-style:solid;border-color:transparent;
+  background:linear-gradient(var(--glass),var(--glass)) padding-box,var(--alu-brush) border-box,var(--alu) border-box;
+  box-shadow:0 0 0 1px rgba(108,114,124,.5),inset 0 0 0 1px rgba(255,255,255,.07),0 2px 6px rgba(22,24,31,.12)}
+.alu-phone{border-width:3px;padding:5px}
+.alu-screen{border-width:4px;padding:7px 7px 9px}
+.alu-display{border-width:5px;padding:6px;border-radius:14px}
+.alu-base{background:linear-gradient(180deg,#F1F2F4 0%,#D3D7DC 45%,#AEB3BB 100%);border-bottom:1px solid var(--alu-rim);box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 2px 6px rgba(22,24,31,.12);position:relative}
+.alu-base::before{content:"";position:absolute;left:50%;top:0;width:16%;height:5px;transform:translateX(-50%);border-radius:0 0 6px 6px;background:linear-gradient(#B9BEC5,#D8DBE0)}
+.alu-bar{background:var(--alu-bar)!important;border-bottom:1px solid rgba(110,116,126,.35)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.8);color:#4A505B!important}
+.alu-bar i{background:#B4B9C1!important;box-shadow:inset 0 0 0 1px rgba(90,96,106,.22)}
+.alu-window{border-color:#BFC4CB!important}

@@ -1,0 +1,43 @@
+Terms of Service
+
+Effective October 11, 2026.
+
+The service
+
+Busifier is a managed website service operated by Aaron Ray Barlow, doing business as Busifier, for businesses in the United States. You must be authorized to represent the business. The initial service uses the AI Builder conversation, your confirmed business details and authorized assets to create a website. Social imports and external local-listing updates are available only when an eligible connection is expressly shown as enabled; unavailable connections are not included in your purchase.
+
+Approval before publication
+
+You approve a design direction before the full website build. You then review and approve a specific finished website before its initial publication. Requested changes are presented for approval before publication. You are responsible for checking business facts, contact information, pricing, rights to supplied content and any regulated claims. A private address is not made public without your explicit choice.
+
+Price and recurring billing
+
+$100 USD per month plus applicable sales tax, with no setup fee. Sales tax is added on top of the $100 where it applies. You pay $0 until your approved website is live. You authorize recurring monthly charges only by explicitly accepting the subscription offer. Billing starts only after you approve the finished website and it successfully goes live. It renews monthly until canceled. Saving a payment method or approving a design alone does not start subscription billing.
+
+Usage credits and revisions
+
+Your first design and your first full website build are included and never use credits. Your account starts with 600 credits, good for 30 days. After your site is live, each monthly payment includes 1,000 credits. Unused monthly credits expire at the end of their service period and do not roll over. Each paid change shows a maximum credit cost before you authorize it; work pauses when available credits are insufficient. Extra credits are optional and cost $10 per 1,000 credits, with the amount, price and expiry shown before payment; there are no automatic top-ups. Three design revision rounds are included; after that, changes use credits. Credits measure service usage, have no cash value and do not guarantee an unlimited number of changes.
+
+Cancellation and refunds
+
+Cancel renewal at any time using the dashboard billing controls or by emailing hello@busifier.com. Cancellation stops future renewal and takes effect at the end of the paid service period; it does not trigger an ownership buyout. Charges for an approved website after successful go-live are non-refundable except where required by applicable law. This policy does not waive your rights concerning unauthorized or erroneous charges. Hosting and managed updates end with your paid service unless a separate arrangement is agreed. If you cancel before 12 months of live service, you keep the content you supplied (text, photos and logo) and we send you a copy of your website files on request.
+
+Optional ownership buyout
+
+You keep ownership of the content you supply. The optional price to take ownership of the generated website code and transfer a Busifier-purchased domain is $250 after 12 months of live service. The buyout requires a separate explicit purchase; cancellation alone does not purchase or transfer anything. The handoff includes the customer website source and available customer assets, with domain transfer subject to registrar eligibility and transfer locks. Third-party assets remain subject to their licenses. Busifier platform software, service credentials and shared infrastructure are not transferred. Buyouts are arranged by email. To buy out your site, email hello@busifier.com and we’ll send a checkout link and your files, before hosting ends.
+
+Domains and third-party services
+
+Any domain purchase, renewal allowance, premium-domain surcharge or third-party service charge must be disclosed and accepted before it is incurred. You must have rights to use the business name and domain. Third-party services and connected accounts remain subject to their availability, eligibility rules and applicable terms. A domain registration is not guaranteed until confirmed.
+
+Content, privacy and acceptable use
+
+You grant us permission to process and publish the content you authorize only as needed to provide the service, including through our hosting and AI providers as described in the Privacy Policy. Do not supply content you have no right to use, unlawful content, passwords or payment-card details in the AI chat. We may pause harmful or unauthorized work and contact you to resolve it.
+
+AI output and availability
+
+AI output can contain mistakes. Review the actual website before approval. We do not guarantee search rankings, leads, sales or uninterrupted third-party service. Failed or uncertain operations may be held for reconciliation instead of being repeated. We will communicate material service issues through the dashboard or your account contact.
+
+Changes and contact
+
+The exact subscription terms accepted at launch are retained with your approval. Material price or allowance changes will be disclosed before they apply; a new charge or additional purchase requires the applicable authorization. Contact hello@busifier.com for support, cancellation or ownership handoff.

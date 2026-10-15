@@ -1,0 +1,55 @@
+# Busifier public marketing pages are crawlable by search engines and AI assistants.
+# Authentication protects private data; robots.txt is not an access-control mechanism.
+# Plain-language summary of the business for assistants: https://busifier.com/llms.txt (full: /llms-full.txt)
+# AI use preference (Spawning ai.txt convention, permissive): https://busifier.com/ai.txt
+
+User-agent: *
+Allow: /
+Disallow: /dashboard.html
+Disallow: /signin.html
+Disallow: /start.html
+Disallow: /site.html
+Disallow: /waitlist.html
+Disallow: /media/story-v4
+Disallow: /media/story-v5
+Disallow: /media/story-v6
+Disallow: /media/story-v7
+Disallow: /.auth/
+Disallow: /api/
+Disallow: /app/
+Disallow: /ops/
+
+# AI assistant and AI search crawlers: explicitly welcome on public pages, same private-page rules.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: Bingbot
+User-agent: DuckAssistBot
+User-agent: Amazonbot
+User-agent: meta-externalagent
+User-agent: CCBot
+Allow: /
+Disallow: /dashboard.html
+Disallow: /signin.html
+Disallow: /start.html
+Disallow: /site.html
+Disallow: /waitlist.html
+Disallow: /media/story-v4
+Disallow: /media/story-v5
+Disallow: /media/story-v6
+Disallow: /media/story-v7
+Disallow: /.auth/
+Disallow: /api/
+Disallow: /app/
+Disallow: /ops/
+
+Sitemap: https://busifier.com/sitemap.xml
